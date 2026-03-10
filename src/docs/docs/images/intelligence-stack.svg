@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">LondonoSolutions Intelligence Stack</title>
+  <desc id="desc">A readable diagram showing Human Operators, Decision Authority, Analyst Agents, Knowledge Layer, Execution Systems, and Real World Feedback connected in a governed flow.</desc>
+  <rect width="1280" height="720" fill="#f3f5f8"/>
+
+  <g fill="#20396f" font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="640" y="76" font-size="44" font-weight="700" letter-spacing="2">LONDONOSOLUTIONS</text>
+    <text x="640" y="118" font-size="44" font-weight="700" letter-spacing="2">INTELLIGENCE STACK</text>
+  </g>
+
+  <g stroke="#4f78c4" stroke-width="3" fill="#e8edf7">
+    <rect x="458" y="140" width="364" height="64"/>
+    <rect x="458" y="242" width="364" height="64"/>
+    <rect x="458" y="344" width="364" height="64"/>
+    <rect x="458" y="446" width="364" height="64"/>
+    <rect x="458" y="548" width="364" height="64"/>
+    <rect x="458" y="650" width="364" height="64" transform="translate(0,-52)"/>
+  </g>
+
+  <g fill="#20396f" font-family="'Courier New', monospace" text-anchor="middle" font-size="24" font-weight="700">
+    <text x="640" y="176">HUMAN</text>
+    <text x="640" y="201">OPERATORS</text>
+
+    <text x="640" y="278">DECISION</text>
+    <text x="640" y="303">AUTHORITY</text>
+
+    <text x="640" y="380">ANALYST</text>
+    <text x="640" y="405">AGENTS</text>
+
+    <text x="640" y="482">KNOWLEDGE</text>
+    <text x="640" y="507">LAYER</text>
+
+    <text x="640" y="584">EXECUTION</text>
+    <text x="640" y="609">SYSTEMS</text>
+
+    <text x="640" y="634">REAL WORLD</text>
+    <text x="640" y="659">FEEDBACK</text>
+  </g>
+
+  <g stroke="#7b89a8" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="640" y1="204" x2="640" y2="228"/>
+    <path d="M640 228l-8-12m8 12l8-12"/>
+
+    <line x1="640" y1="306" x2="640" y2="330"/>
+    <path d="M640 330l-8-12m8 12l8-12"/>
+
+    <line x1="640" y1="408" x2="640" y2="432"/>
+    <path d="M640 432l-8-12m8 12l8-12"/>
+
+    <line x1="640" y1="510" x2="640" y2="534"/>
+    <path d="M640 534l-8-12m8 12l8-12"/>
+
+    <line x1="640" y1="612" x2="640" y2="636"/>
+    <path d="M640 636l-8-12m8 12l8-12"/>
+  </g>
+
+  <g fill="#20396f" font-family="'Courier New', monospace" text-anchor="middle">
+    <text x="640" y="700" font-size="18" font-weight="700" letter-spacing="1">AI ANALYZES. HUMANS DECIDE. SYSTEMS EXECUTE.</text>
+  </g>
+</svg>
