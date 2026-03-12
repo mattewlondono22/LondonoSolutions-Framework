@@ -1,8 +1,6 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
-/node_modules
-/.pnp
+node_modules/
+.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -10,32 +8,107 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
+# builds
+.next/
+out/
+dist/
+build/
+coverage/
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+*.log
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
+# environment / secrets
+.env
+.env.*
+!.env.example
 .vercel
+.netlify
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local exports / release bundles / patch files
+release-export/
+exports/
+tmp/
+temp/
+*.zip
+*.patch
+*.diff
+*.bak
+*.tmp
+*.temp
+binary-base64.txt
+changed-files.txt
+londonosolutions-site-release.patch
+londonosolutions-site-release.zip
+londonosolutions-release.zip
+
+# screenshots / recordings
+screenshots/
+recordings/
+*.mp4
+*.mov
+
+# local databases / tabular data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# keys / certs
+*.pem
+*.key
+*.crt
+*.p12
+
+# internal / private / client content
+private/
+internal/
+clients/
+client-data/
+notes/
+journal/
+drafts/
+archive/
+
+# images default ignore
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# allow intentional public assets only
+!public/
+!public/**
+!src/**/*.png
+!src/**/*.jpg
+!src/**/*.jpeg
+!src/**/*.webp
+!src/**/*.svg
+
+# re-exclude non-framework images in src/docs
+src/docs/**/*.png
+src/docs/**/*.jpg
+src/docs/**/*.jpeg
+src/docs/**/*.webp
+
+# re-exclude internal docs in src/docs
+src/docs/sitrep.md
+src/docs/INVICTUS*.md
